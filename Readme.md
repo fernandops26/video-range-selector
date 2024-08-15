@@ -2,11 +2,13 @@
 
 A React library for selecting a specific range within a video timeline. The library provides a customizable and intuitive interface for users to select start and end times for video segments.
 
+![Video Range selector](media/img/overview.png)
+
 ## Features
 
 - Customizable: Modify the appearance and behavior using props.
 - Intuitive Interface: Drag handles for selecting start and end times.
-- Dynamic: Adjusts to varying video durations with pixel-to-millisecond scaling.
+- Dynamic: Automatic adjust to varying video durations with pixel-to-millisecond scaling.
 
 ## Installation
 
@@ -88,7 +90,7 @@ const MyComponent = () => {
 
 ## License
 
-This library requires a license key for use in commercial applications. Please obtain a license key from [Your License Provider] and include it in the licenseKey prop.
+This library requires a license key for use in commercial applications. Please obtain a license key from [here](https://video-range-selector.carrd.co/) and include it in the licenseKey prop.
 
 ## Support
 
