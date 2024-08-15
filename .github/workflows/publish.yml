@@ -23,10 +23,10 @@ jobs:
           node-version: "lts/*"
       - run: npm ci
       - run: npm test
+      - run: npm run build
       - run: npm audit signatures
       - name: Release
-      env:
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      run: npx semantic-release
-
+        run: npx semantic-release
