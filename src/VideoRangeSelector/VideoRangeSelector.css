@@ -1,0 +1,150 @@
+.vrs-container {
+  width: 100%;
+  border-radius: 0.75rem;
+}
+
+.vrs-max-duration {
+  justify-content: flex-end;
+  padding: 0.25rem 0.5rem;
+  text-align: right;
+  font-size: 0.75rem;
+  color: #4b5563;
+}
+
+.vrs-timeline-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vrs-timeline {
+  position: relative;
+  height: 5rem;
+  width: 100%;
+  user-select: none;
+  overflow: hidden;
+  padding: 1.25rem 0.75rem 0; /** padding it's important to avoid conflics with dragging **/
+}
+
+.vrs-timeline-inner {
+  position: relative;
+  height: 3rem;
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+.vrs-overlay-left,
+.vrs-overlay-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.vrs-thumbnail {
+  height: 100%;
+  width: 100%;
+  background-repeat: repeat-x;
+  background-size: contain;
+  border-radius: 0.25rem;
+}
+
+.vrs-handle {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  outline: none;
+}
+
+.vrs-handle-side {
+  height: 70%;
+  width: 5px;
+  cursor: ew-resize;
+  border-radius: 3px;
+  background-color: var(--vrs-color-primary);
+  box-shadow: 0 0 0 2px var(--vrs-color-primary);
+}
+
+.vrs-handle-center {
+  height: 100%;
+  width: 100%;
+  cursor: grab;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0 2px var(--vrs-color-primary);
+}
+
+.vrs-handle-label {
+  position: absolute;
+  top: -1.25rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--vrs-color-primary);
+}
+
+.vrs-input-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.vrs-input {
+  display: inline-block;
+  width: 5rem;
+}
+
+.vrs-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: var(--vrs-color-overlay);
+}
+
+.vrs-overlay-left {
+  left: 0;
+}
+
+.vrs-overlay-right {
+  right: 0;
+}
+
+.vrs-thumbnail {
+  height: 100%;
+  width: 100%;
+  background-repeat: repeat-x;
+}
+
+.vrs-handle-left {
+  height: 70%;
+  transform: translateX(-100%);
+}
+
+.vrs-handle-right {
+  height: 70%;
+  transform: translateX(100%);
+}
+
+.vrs-input-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.vrs-input {
+  display: inline-block;
+  width: 5rem;
+}
+
+.vrs-input-start,
+.vrs-input-end {
+  padding: 4px;
+  /* Add any specific styles for start and end inputs if needed */
+}
+
+.custom {
+  background-color: blue;
+}
