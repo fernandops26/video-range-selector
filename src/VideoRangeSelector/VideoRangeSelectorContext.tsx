@@ -1,4 +1,3 @@
-// VideoRangeSelector/VideoRangeSelectorContext.tsx
 import React, { createContext, useContext, useState, useCallback } from "react";
 import { useDebouncedCallback } from "use-debounce";
 import { formatTime, parseTime } from "./utils";

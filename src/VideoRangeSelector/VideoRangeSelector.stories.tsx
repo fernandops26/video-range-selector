@@ -1,12 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { VideoRangeSelector } from "./VideoRangeSelector";
-import { Range } from "./VideoRangeSelector/Range";
-import { RangeInputs } from "./VideoRangeSelector/RangeInputs";
-import {
-  RangeProps,
-  VideoRangeSelectorProps,
-} from "./VideoRangeSelector/types";
+import { VideoRangeSelector } from ".";
+import { Range } from "./Range";
+import { RangeInputs } from "./RangeInputs";
+import { RangeProps, VideoRangeSelectorProps } from "./types";
 
 type VideoStoryComponentProps = VideoRangeSelectorProps & RangeProps;
 
