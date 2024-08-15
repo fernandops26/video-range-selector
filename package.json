@@ -104,9 +104,16 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.33.2",
     "semantic-release": "^24.0.0",
-    "@rollup/plugin-terser": "0.4.4"
+    "@rollup/plugin-terser": "0.4.4",
+    "cz-conventional-changelog": "3.3.0",
+    "commitizen": "4.3.0"
   },
   "resolutions": {
     "@rollup/rollup-linux-x64-gnu": "4.20.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
