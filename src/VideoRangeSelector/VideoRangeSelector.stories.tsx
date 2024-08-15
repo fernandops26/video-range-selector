@@ -7,7 +7,7 @@ import { RangeProps, VideoRangeSelectorProps } from "./types";
 
 type VideoStoryComponentProps = VideoRangeSelectorProps & RangeProps;
 
-const StoryComponent = (props: VideoStoryComponentProps) => {
+const StoryComponent = (props: VideoStoryComponentProps): JSX.Element => {
   return (
     <VideoRangeSelector {...props}>
       <Range thumbnailUrl={props.thumbnailUrl} />

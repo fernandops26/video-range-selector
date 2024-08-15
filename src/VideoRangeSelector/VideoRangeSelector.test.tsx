@@ -13,7 +13,7 @@ global.ResizeObserver = jest.fn().mockImplementation(() => ({
 describe("VideoRangeSelector", () => {
   it("should render the component", () => {
     const videoDuration = 1000;
-    const handleRangeChange = () => {};
+    const handleRangeChange = (): void => {};
     // const selectionRange = { start: 0, end: 0 };
     const startSelection = 0;
     const endSelection = 0;

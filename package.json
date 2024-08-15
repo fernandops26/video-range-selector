@@ -19,8 +19,8 @@
     "test": "jest --verbose --silent",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "lint": "eslint ./src",
-    "lint:fix": "eslint ./src --fix",
+    "lint": "eslint 'src/**/*.tsx'",
+    "lint:fix": "eslint 'src/**/*.tsx' --fix",
     "prepare": "npm run build",
     "semantic-release": "semantic-release"
   },
@@ -54,11 +54,10 @@
   },
   "homepage": "https://github.com/fernandops26/video-range-selector#readme",
   "peerDependencies": {
-    "@types/react": "^18.3.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "@dnd-kit/core": "6.1.0",
-    "@dnd-kit/modifiers": "7.0.0"
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "@dnd-kit/core": "^6.1.0",
+    "@dnd-kit/modifiers": "^7.0.0"
   },
   "dependencies": {
     "clsx": "2.1.1",
@@ -84,7 +83,7 @@
     "@testing-library/jest-dom": "^6.4.8",
     "@testing-library/react": "^16.0.0",
     "@types/jest": "^29.5.12",
-    "@types/react": "^18.3.3",
+    "@types/react": "^18.1.0",
     "@types/react-dom": "^18.3.0",
     "globals": "^15.9.0",
     "identity-obj-proxy": "^3.0.0",

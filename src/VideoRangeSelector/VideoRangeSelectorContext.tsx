@@ -99,7 +99,7 @@ export const VideoRangeSelectorProvider: React.FC<
   );
 };
 
-export const useVideoRangeSelector = () => {
+export const useVideoRangeSelector = (): VideoRangeSelectorContextProps => {
   const context = useContext(VideoRangeSelectorContext);
   if (!context) {
     throw new Error(

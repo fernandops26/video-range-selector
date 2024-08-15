@@ -14,19 +14,19 @@ export const CenterHandle: React.FC<CenterHandleProps> = ({
 
   const style = {
     left,
-    width: width || "5px",
+    width: width ?? "5px",
   };
 
   return (
     <div
       ref={setNodeRef}
       style={style}
-      className={`vrs-handle`}
+      className={"vrs-handle"}
       {...listeners}
       {...attributes}
     >
       {label && <span className="vrs-handle-label">{label}</span>}
-      <div className={cn(`vrs-handle-center`, className)} />
+      <div className={cn("vrs-handle-center", className)} />
     </div>
   );
 };

@@ -23,4 +23,4 @@ export const ThemeProvider: React.FC<{
   );
 };
 
-export const useTheme = () => useContext(ThemeContext);
+export const useTheme = (): Theme => useContext(ThemeContext);

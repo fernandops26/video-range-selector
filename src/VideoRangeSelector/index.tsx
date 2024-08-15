@@ -19,9 +19,9 @@ export const VideoRangeSelector: React.FC<VideoRangeSelectorProps> = ({
 }) => {
   const globalVars: React.CSSProperties & Record<string, string> = {
     "--vrs-color-primary":
-      theme?.colors?.primary || defaultTheme.colors.primary || "",
+      theme?.colors?.primary ?? defaultTheme.colors.primary ?? "",
     "--vrs-color-overlay":
-      theme?.colors?.overlay || defaultTheme.colors.overlay || "",
+      theme?.colors?.overlay ?? defaultTheme.colors.overlay ?? "",
   };
 
   useEffect(() => {
