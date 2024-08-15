@@ -2,7 +2,7 @@
 
 A React library for selecting a specific range within a video timeline. The library provides a customizable and intuitive interface for users to select start and end times for video segments.
 
-![Video Range selector](media/img/overview.png)
+![Video Range selector](media/img/demo.gif)
 
 ## Features
 
