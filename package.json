@@ -48,7 +48,7 @@
     "url": "git+https://github.com/fernandops26/video-range-selector.git"
   },
   "author": "Fernando Palacios",
-  "license": "ISC",
+  "license": "GPLv3",
   "bugs": {
     "url": "https://github.com/fernandops26/video-range-selector/issues"
   },
